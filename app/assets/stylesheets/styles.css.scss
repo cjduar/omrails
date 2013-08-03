@@ -18,10 +18,15 @@ body {
 	border:0;
 }
 
+.container {
+	font-family:Papyrus;
+width:1200px;
+}
+
 .footer{
 
 	margin-top: 50px;
-	padding-left: 100px;
+	/*padding-left: 100px;*/
 	color: $grayLight;
 	a{
 		color: $gray;
@@ -40,13 +45,12 @@ body {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	box-shadow: 5px 5px 10px #444;
+	box-shadow: 1px 1px 10px #444;
 	width: 214px;
 } 
 
 .box img {
 
-	display: block;
 	width: 100%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
